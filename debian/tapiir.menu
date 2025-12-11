@@ -1,0 +1,12 @@
+?package(tapiir):\
+		needs="X11"\
+		section="Apps/Sound"\
+		title="tapiir_alsa"\
+		command="/usr/bin/tapiir_alsa"\
+		description="Software multitap delay with realtime I/O (ALSA)"
+?package(tapiir):\
+		needs="X11"\
+		section="Apps/Sound"\
+		title="tapiir_jack"\
+		command="/usr/bin/tapiir_jack"\
+		description="Software multitap delay with realtime I/O (JACK)"

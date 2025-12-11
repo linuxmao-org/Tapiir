@@ -1,0 +1,1 @@
+EXTRA_DIST = 00-clear.mtd 01-simple.mtd 02-simple-feedback.mtd 03-pingpong.mtd 04-pingpong-cross.mtd 05-reverb-1.mtd 06-reverb-2.mtd 07-FIR.mtd 08-IIR.mtd 09-filter.mtd 10-karplusstrong.mtd 11-syncdelay-1.mtd 12-syncdelay-2.mtd 13-pattern.mtd 14-its-gonna-rain.mtd 15-xloops.mtd

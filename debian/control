@@ -1,0 +1,25 @@
+Source: tapiir
+Section: sound 
+Priority: optional
+Maintainer: Enrique Robledo Arnuncio <era@debian.org>
+Build-Depends: debhelper (>> 3.0.0), automake1.6, libfltk1.1-dev, libjack-dev, autoconf
+Standards-Version: 3.6.1
+
+Package: tapiir
+Architecture: any
+Depends: ${shlibs:Depends}, jackd
+Description: A tool for real time audio delay and feedback effects
+ Tapiir is a simple and flexible audio effects processor, inspired on
+ the classical magnetic tape delay systems used since the early days
+ of electro-acoustic music composition. It provides a graphical user
+ interface consisting of six delay lines, or "taps", which can
+ introduce an almost arbitrarily big or small delay to their inputs
+ and can be fed back to each other.
+ .
+ A wide set of effects can be easily achieved by properly configuring
+ and connecting the delay lines: complex echo patterns, resonances,
+ filtering, etc. Delays, interconnections and gains can all be
+ controlled in real time.
+ .
+ Tapiir requires the ALSA sound driver and the JACK sound daemon, and
+ may be run to work with either of them.
